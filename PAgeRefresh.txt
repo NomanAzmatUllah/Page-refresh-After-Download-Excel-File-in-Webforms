@@ -1,0 +1,33 @@
+  <script type="text/javascript">
+    var isReload = false;
+    function DownloadFiles()
+    {
+        if(isReload == true)
+        {
+            isReload = false;
+            window.location.reload();     
+        }
+        else
+        {
+            isReload = true;
+        }
+        window.setTimeout("DownloadFiles()", 2000);
+    }
+    </script>
+
+
+
+
+
+OnClientClick="DownloadFiles();
+
+
+
+
+
+
+
+refresh page After download file on click in Webforms 
+
+
+Apply onclientclick event on asp button
